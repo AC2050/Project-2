@@ -1,18 +1,49 @@
- h1 {
-	 color: Blue;
-	 font-family: Georgia;
+h1 {
+	color: Blue;
+	font-family: Georgia;
  }
  
- #site-footer {
-	 background-color: Red;
-	 width: 90%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 border: 5px solid Black;
+#site-footer {
+	background-color: #FAFAD2;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid Black;
+	padding-left: 5px;
  }
  
- address {
-	 font-family: Georgia;
+#site-footer a{
+	
+}
+ 
+address {
+	font-family: Georgia;
 	 
  }
  
+#navlist {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+ 
+li.navitem {
+	display: inline;
+	padding: 10px;
+}
+ 
+li.navitem a {
+	display: inline-block;
+    padding: 5px 5px 5px 5px;
+}
+
+nav {
+	width: 70%;
+    height: auto;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FAFAD2;
+    border-radius: 8px;
+}
