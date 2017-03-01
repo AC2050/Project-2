@@ -1,4 +1,18 @@
  h1 {
 	 color: Blue;
+	 font-family: Georgia;
+ }
+ 
+ #site-footer {
+	 background-color: Red;
+	 width: 90%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 border: 5px solid Black;
+ }
+ 
+ address {
+	 font-family: Georgia;
+	 
  }
  
