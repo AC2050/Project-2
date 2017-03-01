@@ -1,24 +1,32 @@
 h1 {
-	color: Blue;
-	font-family: Georgia;
+	font-family: "Georgia";
+	text-decoration: underline;
+	text-align: center;
+	width: 80%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
  }
  
 #site-footer {
 	background-color: #FAFAD2;
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid Black;
-	padding-left: 5px;
+	padding: 5px;
+	margin-top: 10px;
  }
  
-#site-footer a{
-	
-}
- 
-address {
+#site-footer address p {
 	font-family: Georgia;
-	 
+	padding: 0;
+	margin: 5px 0;
+ }
+ 
+ #site-footer p{
+	 padding: 0;
+	 margin: 0;
  }
  
 #navlist {
@@ -46,4 +54,41 @@ nav {
     text-align: center;
     background-color: #FAFAD2;
     border-radius: 8px;
+	margin-left: auto;
+	margin-right:auto;
+	border: 2px solid black;
+
 }
+
+#sitetitle {
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.clearme {
+	clear: both;
+}
+
+body {
+	background-color: #F0FFFF;
+}
+
+#indexsec p {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#iitvid {
+	width: 300;
+	height: 210;
+}
+
+#me_img {
+	border-radius: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
