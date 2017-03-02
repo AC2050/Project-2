@@ -25,39 +25,51 @@ h1 {
  }
  
  #site-footer p{
-	 padding: 0;
-	 margin: 0;
+	padding: 0;
+	margin: 0;
  }
  
-#navlist {
-    margin: 0;
-    padding: 0;
-    height: auto;
+nav ul {
+  margin: 0;
+  padding: 0;
+  height: auto;
 }
  
-li.navitem {
+nav li {
 	display: inline;
 	padding: 10px;
 }
  
-li.navitem a {
+nav a {
 	display: inline-block;
-    padding: 5px 5px 5px 5px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: blue;
+  transition: .2s background-color;
+}
+
+nav a:hover {
+  background-color: #FBE908;
+}
+
+.navbar a:active {
+  background-color: #B4B4B4;
+  color: blue;
+  cursor: default;
 }
 
 nav {
-	width: 70%;
-    height: auto;
-    font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: #FAFAD2;
-    border-radius: 8px;
+	width: auto;
+  height: auto;
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FAFAD2;
 	margin-left: auto;
 	margin-right:auto;
-	border: 2px solid black;
-
+	border: .1em solid black;
+  border-radius: .5em;
 }
 
 #sitetitle {
@@ -81,8 +93,9 @@ body {
 }
 
 #iitvid {
-	width: 300;
-	height: 210;
+
+  padding-left: auto;
+  padding-right: auto;
 }
 
 #me_img {
@@ -92,3 +105,37 @@ body {
 	margin-right: auto;
 }
 
+.sectionboxA {
+  border: .1em solid black;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  padding: 0.5em;
+  margin-bottom: 2em;
+  display: block
+}
+
+
+.sectionboxR {
+  border: .1em solid black;
+  box-sizing: content-box;
+  padding-left: 1em;
+  width: auto;
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+#iitcon{
+  float: right;
+
+}
+#mycon{
+  float: left;
+
+}
+
+#about {
+  max-width: 37em;
+  margin: 0 auto;
+  
+}
