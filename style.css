@@ -41,7 +41,7 @@ nav li {
 }
  
 nav a {
-	display: inline-block;
+  display: inline-block;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
   color: blue;
@@ -52,12 +52,6 @@ nav a:hover {
   background-color: #FBE908;
 }
 
-/*.navbar a:active {
-  background-color: #B4B4B4;
-  color: blue;
-  cursor: default;
-}*/
-
 nav {
 	width: auto;
   height: auto;
@@ -66,9 +60,9 @@ nav {
   font-weight: bold;
   text-align: center;
   background-color: #FAFAD2;
-	margin-left: auto;
-	margin-right:auto;
-	border: .1em solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border: .1em solid black;
   border-radius: .5em;
 }
 
@@ -123,11 +117,11 @@ body {
   margin: 0 auto;
 }
 
-#iitcon{
+#iitcon {
   float: right;
 
 }
-#mycon{
+#mycon {
   float: left;
 
 }
@@ -138,7 +132,12 @@ body {
   
 }
 
-.active{
+.active {
 	background-color: #B4B4B4;
+}
 
+#banner {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
