@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 nav {
-	width: auto;
+  max-width: 90%;
   height: auto;
   font-size: 16px;
   font-family: Tahoma, Geneva, sans-serif;
@@ -63,7 +63,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   border: .1em solid black;
-  border-radius: .5em;
+
 }
 
 #sitetitle {
@@ -77,7 +77,7 @@ nav {
 }
 
 body {
-	background-color: #F0FFFF;
+	background: url("lantern-background.jpg");
 }
 
 #indexsec p {
@@ -95,6 +95,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	vertical-align: middle;
+	max-width: 99%;
 }
 
 .sectionboxA {
@@ -104,7 +106,8 @@ body {
   height: auto;
   padding: 0.5em;
   margin-bottom: 2em;
-  display: block
+  display: block;
+  background-color: #FAFAD2;
 }
 
 
@@ -115,6 +118,7 @@ body {
   width: auto;
   max-width: 35em;
   margin: 0 auto;
+  background-color: #FAFAD2;
 }
 
 #iitcon {
@@ -140,4 +144,12 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+#indexsec {
+  border: .1em solid black;	
+  background-color: #FAFAD2;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
